@@ -22,7 +22,18 @@ button {
     margin-top: 40px;
     margin-left: 20px;
     margin-right: 20px;
+    font-size: 0;
+    height: 45px;
+    font-family: sans-serif ;
   }
+.fixed-header{
+  position: fixed;
+  background-color: white;
+  top:0;
+  left:0;
+  right:0;
+}
+
 
   li{
       display: inline;
@@ -78,3 +89,18 @@ button {
     background-color:#67b54b;
     color:#fff;
 }
+
+.actions button{
+  color: white;
+  background-color: #67b5ab;
+}
+
+.publish p{
+color: #343434;
+}
+
+.publish h3{
+  color: #025157;
+  font-family: sans-serif;    
+}
+  
