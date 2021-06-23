@@ -95,12 +95,228 @@ button {
   background-color: #67b5ab;
 }
 
-.publish p{
-color: #343434;
+
+.menu-item {
+  display: inline;
+  margin-left: 25px;
+  margin-right: 25px;
 }
 
-.publish h3{
-  color: #025157;
-  font-family: sans-serif;    
+
+.promo-section {
+  display: flex;
+  width: 70%;
+  margin: 100px auto;
+
 }
+
+
+
+.publish h3 {
+  font-family: "Alegreya", serif;
+  font-size: 40px;
+  line-height: 48px;
+  color: #025157;
+}
+
+.publish > p {
+  font-size: 16px;
+  color: #343434;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.publish > form {
+  display: flex;
+ 
+}
+
+.publish > form p {
+  color: #025157;
+  margin-right: 18px;
+}
+
+.publish {
+  margin-left: 50px;
+}
+
+.explanatory-video {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.explanatory-video img {
+  width: 120px;
+  margin-top: 10px;
+}
+
+
+.signup {
+  width: 400px;
+  font: normal bold 12px Verdana, Arial;
+}
+
+.signup label {
+  display: inline-block;
+  width: 150px;
+}
+
+.signup input {
+  display: inline-block;
+  width: 200px;
+  margin-bottom: 5px;
+}
+
+
+
+
+.ecommerce {
+  background-color: #a1d683;
+  padding: 5% 15%  5% 15%;
+  display: flex;
+  align-items: center;
+  margin: auto;
+}
+
+.ecommerce .overview {
+  flex: 2;
+  padding-right: 100px;
   
+}
+
+.ecommerce .overview img {
+  width: 500px;
+  max-width: 100%;
+  flex-direction: column;
+  
+  border-radius:20px;
+  margin-top:25px;
+  margin-bottom:25px;
+  margin-left: 15px;
+  margin-right: 15%;
+}
+
+
+.ecommerce h2 {
+  font-family: sans-serif, serif;
+  font-size: 50px;
+  line-height: 50px;
+  color: #025157;
+}
+
+.ecommerce .overview p {
+  color: #343434;
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
+
+.ecommerce .overview button {
+  font-size: 14px;
+  padding: 12px;
+  border-radius: 8px;
+  height: 45px;
+  font-weight: 600;
+  margin-left: 0;
+}
+
+.ecommerce .commerces {
+  position: static;
+  flex: 1;  
+  display: flex;
+  flex-flow: column;
+  background-color: white;
+  border-radius: 8px;  
+  margin:auto;
+}
+
+.ecommerce .commerces figure {
+  margin-top: 0;
+  margin-left: 0;
+  margin-bottom: 0;
+  width: 100%;
+}
+
+.ecommerce .commerces .worker img {
+  width: 100%;
+  max-height: 16vw;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  
+}
+
+.ecommerce .commerces .company {
+  z-index: 1;
+  position: relative;
+  bottom: 80px;
+  right: -170px;
+  width: 100px;
+  height: 100px;
+  background-color: #f9da73;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ecommerce .commerces .company img {
+  max-width: 100%;
+}
+
+.ecommerce .commerces .description{
+  position: relative;
+  bottom: 80px;
+  margin-top: 0;
+  margin-left: 3%;
+  margin-top: 3%;
+  display: flex;
+}
+
+
+
+.ecommerce .commerces .description h4 {
+  color: #025157;
+  position: relative;
+  font-size: 25px;
+  font-weight: bold;
+  line-height: 20px;  
+  margin-bottom: 5%;
+  margin-top: 15%;
+}
+
+.ecommerce .commerces .description h3 {
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 30px;
+  padding-top: 25%;
+  
+}
+
+.ecommerce .commerces .revenue {
+  position: relative;
+  bottom: 30px;
+  display: flex;
+  align-items: center;
+  color: #828282;
+}
+
+.ecommerce .commerces .revenue img {
+  width: 26px;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+
+
+.ecommerce .commerces button {
+  display: block;
+  margin: 40px 0 40px 0;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 12px 20px;
+  width: 90%;
+  margin-left: 15px;
+  margin-right: 20px;
+}
