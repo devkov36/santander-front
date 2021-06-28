@@ -397,13 +397,13 @@ main{
 }
 
 
-.how-does-it-work {
+.postwork4 {
   background-color: #fffbf7;
   padding: 5% 10%;
   text-align: center;
 }
 
-.how-does-it-work .title {
+.postwork4 .header {
   color: #025157;
   font-size: 50px;
   line-height: 60px;
@@ -412,7 +412,7 @@ main{
   margin-bottom: 8px;
 }
 
-.how-does-it-work .description {
+.postwork4 .description {
   max-width: 60%;
   color: #46484c;
   font-size: 18px;
@@ -422,12 +422,12 @@ main{
   margin-bottom: 16px;
 }
 
-.how-does-it-work .description a {
+.postwork4 .description a {
   color: #67b54b;
   text-decoration: none;
 }
 
-.how-does-it-work button {
+.postwork4 button {
   font-size: 14px;
   font-weight: 600;
   padding-top: 12px 12px 6px 12px;
@@ -437,13 +437,13 @@ main{
   margin-top: 6px;
 }
 
-.how-does-it-work .steps {
+.postwork4 .cards {
   margin-top: 70px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
-.how-does-it-work .steps .card-step {
+.postwork4 .cards .card-info {
   background-color: #fff;
   border: 1px solid #dadada;
   border-radius: 5px;
@@ -452,46 +452,46 @@ main{
   text-align: left;
 }
 
-.how-does-it-work .steps .card-step .card-step-image {
-  position: relative;
-  height: 350px;
+.postwork4 .cards .card-info .card-info-image {
+  
+  height: 400px;
 }
 
-.how-does-it-work .steps .card-step .card-step-image .card-step-icon {
+.postwork4 .cards .card-info .card-info-image .badge {
   position: absolute;
-  top: 25px;
-  left: 25px;
-  width: 21px;
+  top: 35px;
+  left: 35px;
+  width: 20px;
 }
 
-.how-does-it-work .steps .card-step .card-step-image .card-step-bg {
+.postwork4 .cards .card-info .card-info-image .card-info-bg {
   width: 100%;
   height: 100%;
 }
 
-.how-does-it-work .steps .card-step .card-step-body {
-  padding: 25px;
+.postwork4 .cards .card-info .card-info-body {
+  padding: 35px;
 }
 
-.how-does-it-work .steps .card-step .card-step-body h3 {
+.postwork4 .cards .card-info > h3 {
   font-size: 30px;
   line-height: 36px;
-  font-family: "Alegreya", serif;
+  font-family: sans-serif, serif;
   color: #025157;
   font-weight: 400;
   text-align: center;
 }
 
-.how-does-it-work .steps .card-step .card-step-body p {
+.postwork4 .cards .card-info > p {
   font-size: 15px;
   line-height: 1.5;
   color: #46484c;
   font-weight: 400;
-  height: 85px;
+  height: 80px;
   margin-bottom: 16px;
 }
 
-.how-does-it-work .steps .card-step .card-step-body a {
+.postwork4 .cards .card-info .card-info-body a {
   font-size: 16px;
   line-height: 1.4;
   color: #67b54b;
