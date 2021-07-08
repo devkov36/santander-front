@@ -1,0 +1,22 @@
+{
+  "name": "yakov",
+  "version": "1.0.0",
+  "description": "git init #PREPARAR ARCHIVOS git add. #NOMBRAR COMMIT git commit -m \"first commit\" #si quiero subirlo a otra rama git branch -M main git remote add origin https://github.com/devkov36/santander-front.git git push -u origin main",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devkov36/santander-front.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/devkov36/santander-front/issues"
+  },
+  "homepage": "https://github.com/devkov36/santander-front#readme",
+  "dependencies": {
+    "sass": "^1.35.1"
+  }
+}
